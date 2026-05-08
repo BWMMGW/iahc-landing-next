@@ -1,0 +1,20 @@
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Head from "next/head";
+
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+  <>
+  <Head>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </Head>
+    <Header />
+      <main className="main-content">
+        <Component {...pageProps} />
+      </main>
+    <Footer />
+  </>
+  );
+}
