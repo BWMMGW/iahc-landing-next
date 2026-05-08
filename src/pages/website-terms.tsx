@@ -27,7 +27,7 @@ const TermsPage = () => {
 
 <h5>Definitions</h5>
 
-    <table border="0" cellpadding="8" cellspacing="0" width="100%" classname="font-family: Arial, sans-serif; border-collapse: collapse;">
+    <table border={0} cellPadding={8} cellSpacing={0} width="100%" classname="font-family: Arial, sans-serif; border-collapse: collapse;">
         <thead>
             <tr>
                 <th align="left" classname="background-color: #000000; color: #ffffff; border: 1px solid #000000; padding: 12px;">Term</th>
