@@ -27,41 +27,41 @@ const TermsPage = () => {
 
 <h5>Definitions</h5>
 
-    <table border={0} cellPadding={8} cellSpacing={0} width="100%" classname="font-family: Arial, sans-serif; border-collapse: collapse;">
+    <table border={0} cellPadding={8} cellSpacing={0} width="100%" className="font-family: Arial, sans-serif; border-collapse: collapse;">
         <thead>
             <tr>
-                <th align="left" classname="background-color: #000000; color: #ffffff; border: 1px solid #000000; padding: 12px;">Term</th>
-                <th align="left" classname="background-color: #000000; color: #ffffff; border: 1px solid #000000; padding: 12px;">Definition</th>
+                <th align="left" className="background-color: #000000; color: #ffffff; border: 1px solid #000000; padding: 12px;">Term</th>
+                <th align="left" className="background-color: #000000; color: #ffffff; border: 1px solid #000000; padding: 12px;">Definition</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;"><strong>Organization</strong></td>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;">[Organization Name], including all branches, subsidiaries, and affiliates.</td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;"><strong>Organization</strong></td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;">[Organization Name], including all branches, subsidiaries, and affiliates.</td>
             </tr>
             <tr>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;"><strong>Services</strong></td>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;">The offerings provided by the Organization, including VPN, proxy, DNS services, Minecraft hosting, and hosting-related products.</td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;"><strong>Services</strong></td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;">The offerings provided by the Organization, including VPN, proxy, DNS services, Minecraft hosting, and hosting-related products.</td>
             </tr>
             <tr>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;"><strong>User</strong></td>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;">Any individual or entity that accesses or uses the Organization's Services.</td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;"><strong>User</strong></td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;">Any individual or entity that accesses or uses the Organization's Services.</td>
             </tr>
             <tr>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;"><strong>Worker</strong></td>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;">Employees, contractors, or agents performing work on behalf of the Organization.</td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;"><strong>Worker</strong></td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;">Employees, contractors, or agents performing work on behalf of the Organization.</td>
             </tr>
             <tr>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;"><strong>Partner</strong></td>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;">Third-party service providers, distributors, or resellers who integrate or re-offer the Organization's Services.</td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;"><strong>Partner</strong></td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;">Third-party service providers, distributors, or resellers who integrate or re-offer the Organization's Services.</td>
             </tr>
             <tr>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;"><strong>Affiliate</strong></td>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;">Any entity that directly or indirectly controls, is controlled by, or is under common control with the Organization.</td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;"><strong>Affiliate</strong></td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;">Any entity that directly or indirectly controls, is controlled by, or is under common control with the Organization.</td>
             </tr>
             <tr>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;"><strong>Indirect Use</strong></td>
-                <td valign="top" classname="border: 1px solid #000000; padding: 12px;">Access or use of our Services via Partners or third-party platforms, which also binds you to their terms.</td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;"><strong>Indirect Use</strong></td>
+                <td valign="top" className="border: 1px solid #000000; padding: 12px;">Access or use of our Services via Partners or third-party platforms, which also binds you to their terms.</td>
             </tr>
         </tbody>
     </table>
