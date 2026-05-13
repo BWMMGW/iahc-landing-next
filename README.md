@@ -45,7 +45,3 @@ And deploy it:
 pnpx wrangler deploy
 ```
 
-
-```sh
-pnpx wrangler versions deploy
-```
